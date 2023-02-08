@@ -1,13 +1,6 @@
 body {
   margin: 0;
-  font-family: Open Sans;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: Poppins;
+  font-family: cursive;
 }
 
 a {
@@ -18,35 +11,33 @@ a {
   text-align: center;
 }
 
-.banner {
+.section {
+  background-image: url(image/japon.jpg);
   background-size: cover;
   background-position: center;
   padding: 200px 0;
 }
 
-.banner h1 {
+.section h1 {
   color: white;
 }
 
-.banner p {
+.section p {
   color: white;
-  opacity: 0.7;
   font-size: 20px;
 }
 
-.btn-primary {
-  display: inline-block;
-  background-color: #1edd88;
-  padding: 16px 36px;
-  border-radius: 50px;
-  color: white;
+.container {
+  width: 900px;
+  margin: auto;
 }
 
-.btn-secondary {
-  border: 1px solid #1edd88;
-  padding: 8px 16px;
+.btn-pink {
+  display: inline-block;
+  background-color: #ffccff;
+  padding: 16px 36px;
   border-radius: 50px;
-  color: #1edd88;
+  color: black;
 }
 
 .card img {
@@ -58,12 +49,16 @@ a {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   width: 200px;
   border-radius: 3px;
   box-shadow: 0 0 5px rgb(230, 230, 230);
   text-align: center;
   padding: 20px;
   border: 1px solid rgb(230, 230, 230);
+  align-items: center;
+  justify-content: center;
 }
 
 .cards {
@@ -71,11 +66,6 @@ a {
   justify-content: space-between;
   margin-bottom: 30px;
   flex-wrap: wrap;
-}
-
-.container {
-  width: 900px;
-  margin: auto;
 }
 
 .footer {
@@ -86,7 +76,7 @@ a {
 
 .footer a {
   font-size: 30px;
-  color: #1edd88;
+  color: #ffccff;
 }
 
 .footer p {
